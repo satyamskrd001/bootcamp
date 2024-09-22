@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        /* Style for the form box */
+        .box {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid black;
+            margin: 20px ;
+        }
+    </style>
+</head>
+<body>
+    <h4 >Personal Details</h4>
+    <div class="box">
+        
+    <form>
+        <label for="salutation" >Salutation</label><br>
+        <select id="salutation" name="salutation">
+            <option value="select">--select--</option>
+        </select>        <br><br>
+
+        <label for="firstname">First name:</label>
+        <input type="text"> <br><br>
+
+        <label for="lastname">Last name:</label>
+        <input type="text">  <br><br>
+
+        <label>Gender:</label>
+        <input type="radio">
+        <label for="male">Male</label>
+        <input type="radio">
+        <label for="female">Female</label>     <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email">        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date">     <br><br>
+
+        <label for="address">Address:</label>       <br>
+        <textarea id="address"></textarea>      <br><br>
+
+        <input type="submit" value="Submit">        <br><br>
+    </form>
+    </div>
+</body>
+</html>
